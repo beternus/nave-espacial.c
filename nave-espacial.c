@@ -14,7 +14,6 @@ void sleep(unsigned int mseconds)       // Delay
     while (goal > clock());
 }
 
-
 void gotoxy(int x, int y)             
 {
   COORD c;
